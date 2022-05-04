@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="http://localhost/RocketBusinessTest/img/favicon.ico" type="image/ico" />
-    <!-- Добавление фона -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400&family=PT+Sans+Caption:wght@400;700&display=swap" rel="stylesheet">
@@ -93,38 +92,37 @@
         <div class="item">
             <div class="check-up-container">
                 <div class="text-block flex-item">
-                    <?php
+                    <!-- <?php
                     include "databases.php";
                     $result = mysqli_query($link, "SELECT * FROM `fameles` WHERE `id`='1'");
                     $fameles = mysqli_fetch_assoc($result);
-                    ?>
-                    <h1>CHECK-UP-
-                        <?php echo $fameles['id'] ?>
+                    ?> -->
+                    <h1>CHECK-UP-1
+        
                     </h1>
-                    <h3>для
-                        <?php echo $fameles['gender'] ?>
+                    <h3>для мужчин
                     </h3>
                     <ul>
                         <li>
-                            <?php echo $fameles['title_1'] ?>
+                            Горомональный скрининг
                         </li>
                         <li>
-                            <?php echo $fameles['title_2'] ?>
+                            Тестостерон
                         </li>
                         <li>
-                            <?php echo $fameles['title_3'] ?>
+                            Свободный тестостерон
                         </li>
                         </li>
                         <li>
-                            <?php echo $fameles['title_4'] ?>
+                            Глобулин, связывающий половые гормоны
                         </li>
                     </ul>
                     <div class="price-block">
                         <h2>Всего
-                            <?php echo $fameles['price'] ?>₽
+                        2800₽
                         </h2>
                         <span><s>
-                                <?php echo $fameles['old_price'] ?>₽
+                            3500₽
                             </s></span>
                     </div>
 
@@ -146,22 +144,22 @@
         <div class="item">
             <div class="check-up-container">
                 <div class="text-block flex-item">
-                    <?php
+                    <!-- <?php
                     include "databases.php";
                     $result_2 = mysqli_query($link, "SELECT * FROM `fameles` WHERE `id`='2'");
                     $fameles = mysqli_fetch_assoc($result_2);
-                    ?>
-                    <h1>CHECK-UP-<?php echo $fameles['id'] ?></h1>
-                    <h3>для <?php echo $fameles['gender'] ?></h3>
+                    ?> -->
+                    <h1>CHECK-UP-2</h1>
+                    <h3>для женщин</h3>
                     <ul>
-                        <li><?php echo $fameles['title_1'] ?></li>
-                        <li><?php echo $fameles['title_2'] ?></li>
-                        <li><?php echo $fameles['title_3'] ?></li>
-                        <li><?php echo $fameles['title_4'] ?> </li>
+                        <li>Диагностика шейки матки аппаратом "ТруСкрин"</li>
+                        <li>Консультация гинеколога</li>
+                        <li>Лечение цистита</li>
+                        <li>Лечение миомы матки </li>
                     </ul>
                     <div class="price-block">
-                        <h2>Всего <?php echo $fameles['price'] ?>₽</h2>
-                        <span><s><?php echo $fameles['old_price'] ?>₽</s></span>
+                        <h2>Всего 3400₽</h2>
+                        <span><s>4599₽</s></span>
                     </div>
 
                     <div class="botton-container">
@@ -182,22 +180,22 @@
         <div class="item">
             <div class="check-up-container">
                 <div class="text-block flex-item">
-                    <?php
+                    <!-- <?php
                     include "databases.php";
                     $result_3 = mysqli_query($link, "SELECT * FROM `fameles` WHERE `id`='3'");
                     $fameles = mysqli_fetch_assoc($result_3);
-                    ?>
-                    <h1>CHECK-UP-<?php echo $fameles['id'] ?></h1>
-                    <h3>для <?php echo $fameles['gender'] ?></h3>
+                    ?> -->
+                    <h1>CHECK-UP-3</h1>
+                    <h3>для детей</h3>
                     <ul>
-                        <li><?php echo $fameles['title_1'] ?></li>
-                        <li><?php echo $fameles['title_2'] ?></li>
-                        <li><?php echo $fameles['title_3'] ?></li>
-                        <li><?php echo $fameles['title_4'] ?> </li>
+                        <li>КУФ Солнышко</li>
+                        <li>Лечебная физкультура</li>
+                        <li>Фитнес для мам и малышей</li>
+                        <li>Программа "Депозит"</li>
                     </ul>
                     <div class="price-block">
-                        <h2>Всего <?php echo $fameles['price'] ?>₽</h2>
-                        <span><s><?php echo $fameles['old_price'] ?>₽</s></span>
+                        <h2>Всего 2999₽</h2>
+                        <span><s>3600₽</s></span>
                     </div>
 
                     <div class="botton-container">
@@ -217,22 +215,22 @@
         <div class="item">
             <div class="check-up-container">
                 <div class="text-block flex-item">
-                    <?php
+                    <!-- <?php
                     include "databases.php";
                     $result_4 = mysqli_query($link, "SELECT * FROM `fameles` WHERE `id`='4'");
                     $fameles = mysqli_fetch_assoc($result_4);
-                    ?>
-                    <h1>CHECK-UP-<?php echo $fameles['id'] ?></h1>
-                    <h3>для <?php echo $fameles['gender'] ?></h3>
+                    ?> -->
+                    <h1>CHECK-UP-4</h1>
+                    <h3>для всей семьи</h3>
                     <ul>
-                        <li><?php echo $fameles['title_1'] ?></li>
-                        <li><?php echo $fameles['title_2'] ?></li>
-                        <li><?php echo $fameles['title_3'] ?></li>
-                        <li><?php echo $fameles['title_4'] ?> </li>
+                        <li>Анализы</li>
+                        <li>Все виды УЗИ</li>
+                        <li>Кардиограмма(ЭЭГ)</li>
+                        <li>Медицинские справки </li>
                     </ul>
                     <div class="price-block">
-                        <h2>Всего от <?php echo $fameles['price'] ?>₽</h2>
-                        <span><s><?php echo $fameles['old_price'] ?>₽</s></span>
+                        <h2>Всего от 1500₽</h2>
+                        <span><s>2300₽</s></span>
                     </div>
 
                     <div class="botton-container">
