@@ -21,10 +21,6 @@
 
 
 
-
-
-// пизженый js
-
 var slideIndex = 1;
 showSlides(slideIndex);
 
