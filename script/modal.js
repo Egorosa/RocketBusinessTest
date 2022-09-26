@@ -13,7 +13,7 @@
 // }
 
 
-document.getElementById("modalbutton").onclick = function () {
+document.getElementById("modalbutton").onclick = () => {
   document.getElementById("modal").classList.toggle("modal-window");
   
 };
